@@ -203,7 +203,7 @@ img {
   width: 293px;
   height: 76px;
 
-  gap: 9px;
+  /* gap: 9px; */
 
   font-family: 'Digital';
   font-style: italic;
@@ -213,12 +213,17 @@ img {
 }
 
 .field {
+  flex: 0 1 calc((100% - 3 * 9px) / 4);
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 70px;
   line-height: 1;
   cursor: default;
+}
+
+.field:not(:last-child) {
+  margin-right: 9px;
 }
 
 .value {
