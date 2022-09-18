@@ -1,0 +1,1 @@
+{"mappings":"AACQA,SAASC,KAGPC,MAAMC,gBAAkB","sources":["src/js/02-timer.js"],"sourcesContent":["const refs = {\n  body: document.body,\n};\n\nrefs.body.style.backgroundColor = '#FFFEFE';\n"],"names":["document","body","style","backgroundColor"],"version":3,"file":"02-timer.150c3020.js.map"}
