@@ -67,6 +67,7 @@ function onStop() {
   variablesReset();
   timerInterfaceReset();
 }
+
 //============callback for interval==============
 function updateTime() {
   timeDifference = destinationTime - Date.now();
