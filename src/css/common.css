@@ -195,27 +195,35 @@ img {
 .timer {
   position: absolute;
   top: 37.5%;
-  left: 27%;
+  left: 26.8%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 
   width: 293px;
   height: 76px;
 
+  gap: 9px;
+
+  font-family: 'Digital';
+  font-style: italic;
+
   background-color: #040c06;
-  outline: 1px solid rgb(7, 200, 59);
   color: #88f7f2;
 }
 
 .field {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  font-size: 70px;
+  line-height: 1;
 }
 
 .value {
-  font-family: 'Digital';
-  font-style: italic;
+  line-height: 0.8;
 }
 
 .label {
-  font-size: 5px;
+  font-size: 15px;
 }
