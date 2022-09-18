@@ -15,30 +15,32 @@
   <p><a href="index.html">Go back</a></p>
 
   <div class="container">
-    <input type="text" id="datetime-picker" />
+    <div class="wrapper">
+      <input type="text" id="datetime-picker" class="input" placeholder="SELECT THE DATE" />
 
-    <div class="timer">
-      <div class="field">
-        <span class="value" data-days>00</span>
-        <span class="label">Days</span>
+      <div class="timer">
+        <div class="field">
+          <span class="value" data-days>00</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="field">
+          <span class="value" data-hours>00</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="field">
+          <span class="value" data-minutes>00</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="field">
+          <span class="value" data-seconds>00</span>
+          <span class="label">Seconds</span>
+        </div>
       </div>
-      <div class="field">
-        <span class="value" data-hours>00</span>
-        <span class="label">Hours</span>
-      </div>
-      <div class="field">
-        <span class="value" data-minutes>00</span>
-        <span class="label">Minutes</span>
-      </div>
-      <div class="field">
-        <span class="value" data-seconds>00</span>
-        <span class="label">Seconds</span>
-      </div>
-    </div>
 
-    <div class="buttons">
-      <button type="button" class="timer-button" data-start>Start</button>
-      <button type="button" class="timer-button timer-button--oposide-color" data-stop>Stop</button>
+      <div class="buttons">
+        <button type="button" class="timer-button" data-start>Start</button>
+        <button type="button" class="timer-button timer-button--oposide-color" data-stop>Stop</button>
+      </div>
     </div>
   </div>
 

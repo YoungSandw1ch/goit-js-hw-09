@@ -1,3 +1,15 @@
+/*========================font for timer=================================*/
+@font-face {
+  font-family: 'Digital';
+  src: url('../fonts/digital-7-italic-.eot');
+  src: local('вє'), url('../fonts/digital-7-italic-.woff') format('woff'),
+    url('../fonts/digital-7-italic-.ttf') format('truetype'),
+    url('../fonts/digital-7-italic-.svg') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/*========================common=================================*/
 * {
   box-sizing: border-box;
 }
@@ -17,6 +29,7 @@ img {
   max-width: 100%;
 }
 
+/*========================switcher=================================*/
 .switcher {
   display: flex;
   height: 500px;
@@ -57,23 +70,8 @@ img {
   box-shadow: none;
 }
 
-.container {
-  width: 1030px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-  width: 500px;
-}
-
+/*=============================timer=============================*/
+/* 
 #datetime-picker {
   height: 40px;
   width: 600px;
@@ -159,4 +157,65 @@ img {
 .timer-button--oposide-color:focus,
 .timer-button--oposide-color:hover {
   background-color: rgb(23, 114, 212);
+} */
+
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  /* padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center; */
+}
+
+.wrapper {
+  background-image: url(../images/timer.jpeg);
+  min-height: 584px;
+  position: relative;
+}
+
+.input {
+  position: absolute;
+  top: 32%;
+  left: 27%;
+  width: 290px;
+  height: 23px;
+  background-color: #040c06;
+}
+
+.input::placeholder {
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Digital';
+  font-style: italic;
+  color: #88f7f2;
+}
+
+.timer {
+  position: absolute;
+  top: 37.5%;
+  left: 27%;
+  display: flex;
+
+  width: 293px;
+  height: 76px;
+
+  background-color: #040c06;
+  outline: 1px solid rgb(7, 200, 59);
+  color: #88f7f2;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-family: 'Digital';
+  font-style: italic;
+}
+
+.label {
+  font-size: 5px;
 }
