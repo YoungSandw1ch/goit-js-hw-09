@@ -1,2 +1,0 @@
-!function(){var n,o;(n="all system work",o="tobi p... tikai z mista",new Promise((function(t,e){Math.random()>.5&&t(n),e(o)}))).then((function(n){return console.log(n),n})).then((function(n){return console.log(n+"NOrmalno then 2"),"otrabotal"})).catch((function(n){return console.log(n)})).finally((function(){return console.log("вот и все отработал")}))}();
-//# sourceMappingURL=03-promises.1df106c6.js.map
