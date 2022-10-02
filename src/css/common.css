@@ -69,7 +69,39 @@ img {
   bottom: -6px;
   box-shadow: none;
 }
+/*========================animation for switcher==================*/
+.gif {
+  position: absolute;
+  transition: transform 800ms ease-in-out;
+}
+.gif-1 {
+  top: 10%;
+  left: 0%;
+  transform: scale(200%) translateX(-100%);
+}
+.gif-2 {
+  top: 10%;
+  right: 0%;
+  transform: scaleX(-1) scale(200%) translateX(-100%);
+}
+.gif-3 {
+  bottom: 10%;
+  left: 0%;
+  transform: scale(200%) translateX(-100%);
+}
+.gif-4 {
+  bottom: 10%;
+  right: 0%;
+  transform: scaleX(-1) scale(200%) translateX(-100%);
+}
 
+.show-odd {
+  transform: scale(200%) translateX(0);
+}
+
+.show-even {
+  transform: scaleX(-1) scale(200%) translateX(0);
+}
 /*=============================timer=============================*/
 
 .container {
