@@ -10,6 +10,10 @@ const anim = {
   gif3: document.querySelector('.gif-3'),
   gif4: document.querySelector('.gif-4'),
 };
+console.log(
+  '%c ❗️ На сторінці присутня музика, будь ласка переконайтесь, що гучність нікому не завадить',
+  'color: orange; font-size: 12px;'
+);
 //=======================================
 const SWWITCHER_INTERVAL = 1000;
 let isActive = false;

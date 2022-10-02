@@ -47,6 +47,11 @@ refs.input.style.fontSize = '20px';
 refs.startBtn.addEventListener('click', onStart);
 refs.stopBtn.addEventListener('click', onStop);
 
+console.log(
+  '%c ❗️ Якщо таймер закінчить свій відлік на сторінці буде присутній звуковий єффект',
+  'color: orange; font-size: 12px;'
+);
+
 function onStart() {
   if (!destinationTime || isPastTime) {
     setNotify();
